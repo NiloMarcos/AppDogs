@@ -1,12 +1,13 @@
 import React from 'react';
-import { View, Text } from 'react-native';
 import Header from '../../components/Header';
+
+import { ContainerAll, Title } from './styles';
 
 export default function Dashboard(){
   return(
-    <View>
+    <ContainerAll>
       <Header/>
-      <Text>Screen Dashboard</Text>
-    </View>
+      <Title>Screen Dashboard</Title>
+    </ContainerAll>
   );
 };
