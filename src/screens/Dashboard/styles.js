@@ -5,24 +5,26 @@ export const ContainerAll = styled.View`
 `;
 
 export const Title = styled.Text`
-
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Poppins_700Bold';
 `;
 
 export const ListDogs = styled.FlatList`
-  margin-left: 10px;
+  margin-left: 7px;
 `;
 
 export const ContainerDogs = styled.TouchableOpacity`
   flex-direction: row;
   width: 95%;
-  background-color: #c4c4c4;
+  background-color: #caf0f8;
   margin-top: 8px;
   align-items: center;
   border-radius: 8px;
 `;
 
 export const ContainerTextApi = styled.Text`
-  margin-left: 15px;
+  margin-left: 8px;
   justify-content: center;
 
 `;

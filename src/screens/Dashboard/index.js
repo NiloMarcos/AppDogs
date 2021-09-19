@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from 'react';
-import { Text, TouchableOpacity } from 'react-native';
 import Header from '../../components/Header';
 
 import api from '../../services/api';
@@ -22,7 +21,7 @@ export default function Dashboard({navigation}){
   return(
     <ContainerAll>
       <Header/>
-      <Title>Screen Dashboard</Title>
+      <Title>Listas de dogs</Title>
 
       <ListDogs 
         howsVerticalScrollIndicator={false}
@@ -35,7 +34,7 @@ export default function Dashboard({navigation}){
             <ContainerTextApi>
               <TextApi>Nome: {item.name}</TextApi>{'\n'}
               <TextApi>Tempo de vida: {item.life_span}</TextApi>{'\n'}
-              <TextApi>Cidade Natal: {item.country_code}</TextApi>{'\n'}
+              <TextApi>Raça: {item.breed_group}</TextApi>{'\n'}
             </ContainerTextApi>
           </ContainerDogs>
         )}
