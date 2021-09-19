@@ -10,3 +10,5 @@ const api = axios.create({
     'x-api-key': '4d5af3c3-479e-4539-a128-4cf1e8d36b5d'
   }
 });
+
+export default api;
